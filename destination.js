@@ -96,6 +96,6 @@ export async function run2(search){
   const searchResultNames = searchResult.map((r) => r.metadata.name)
 
   let results = destinations.filter((destination) => searchResultIds.includes(destination.id))
-  console.log(results)
+  console.log(searchResultIds)
   return results;
 }
