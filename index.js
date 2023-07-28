@@ -11,6 +11,8 @@ import { generateEmbeddings } from "./generateEmbeddings.js";
 
 const app = express();
 
+
+
 app.use(cors());
 
 
