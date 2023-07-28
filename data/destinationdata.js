@@ -1,10 +1,10 @@
 export const destinations = [
   {
     id: "new_york_123",
-    cityName: "New York",
-    cityDesc:
+    city: "New York",
+    overview:
       "Explore the wonders of New York, the city that never sleeps, in the United States. Discover iconic landmarks, diverse culture, and thrilling entertainment options.",
-    cityCountry: "United States",
+    country: "United States",
     imgURL:
       "https://www.the-american-dream.com/assets/Uploads-DE/Sharing/sharing-leben-usa.jpg",
     cityRestaurant: [
@@ -52,10 +52,10 @@ export const destinations = [
   },
   {
     id: "japan_456",
-    cityName: "Tokyo",
-    cityDesc:
+    city: "Tokyo",
+    overview:
       "Experience the blend of tradition and modernity in Tokyo, Japan's vibrant capital city. Discover ancient temples, futuristic technology, and the fascinating Japanese culture.",
-    cityCountry: "Japan",
+    country: "Japan",
     imgURL:
       "https://images.moneycontrol.com/static-mcnews/2022/12/jezael-melgoza-layMbSJ3YOE-unsplash.jpg?impolicy=website&width=1600&height=900",
     cityRestaurant: [
@@ -103,10 +103,10 @@ export const destinations = [
   },
   {
     id: "rishikesh_789",
-    cityName: "Rishikesh",
-    cityDesc:
+    city: "Rishikesh",
+    overview:
       "Discover the spiritual and cultural haven of Rishikesh, located in the foothills of the Himalayas. Immerse yourself in yoga, meditation, and the enchanting vibes of this sacred city.",
-    cityCountry: "India",
+    country: "India",
     imgURL: "https://www.euttaranchal.com/tourism/photos/rishikesh-3715497.jpg",
     cityRestaurant: [
       {
@@ -153,10 +153,10 @@ export const destinations = [
   },
   {
     id: "london_789",
-    cityName: "London",
-    cityDesc:
+    city: "London",
+    overview:
       "Immerse yourself in the rich cultural heritage of London, the capital city of the United Kingdom. Discover historic landmarks, world-class museums, and vibrant arts and theater scenes.",
-    cityCountry: "United Kingdom",
+    country: "United Kingdom",
     imgURL:
       "https://www.skyflok.com/wp-content/uploads/2018/09/buildings-bus-cars-163037.jpg",
     cityRestaurant: [
@@ -204,10 +204,10 @@ export const destinations = [
   },
   {
     id: "london_789",
-    cityName: "London",
-    cityDesc:
+    city: "London",
+    overview:
       "Experience the vibrant nightlife of London, a city known for its diverse entertainment options, historic pubs, and lively atmosphere. Explore iconic landmarks and indulge in exciting nighttime activities.",
-    cityCountry: "United Kingdom",
+    country: "United Kingdom",
     imgURL:
       "https://secretldn.com/wp-content/uploads/2022/01/shutterstock_533946907-2-1024x683.jpg",
     cityRestaurant: [
@@ -255,10 +255,10 @@ export const destinations = [
   },
   {
     id: "india_nature_trek_789",
-    cityName: "Manali",
-    cityDesc:
+    city: "Manali",
+    overview:
       "Embark on an adventure in the picturesque town of Manali, located in the lap of the Himalayas in India. Discover breathtaking landscapes, serene valleys, and thrilling trekking trails that will leave you mesmerized.",
-    cityCountry: "India",
+    country: "India",
     imgURL:
       "https://hikerwolf.com/wp-content/uploads/2020/04/WhatsApp-Image-2020-04-02-at-7.18.33-PM-1046x800.jpeg",
     cityRestaurant: [
@@ -306,10 +306,10 @@ export const destinations = [
   },
   {
     id: "india_789",
-    cityName: "Delhi",
-    cityDesc:
+    city: "Delhi",
+    overview:
       "Experience the culinary paradise of Delhi, India's capital city. Indulge in a gastronomic journey through the diverse flavors, aromatic spices, and mouthwatering street food. Discover the rich culinary heritage of India in the heart of Delhi.",
-    cityCountry: "India",
+    country: "India",
     imgURL:
       "https://www.travelandleisure.com/thmb/GxGxa3QfnK2T0IKWU0DzdW9Mx80=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/new-delhi-india-NEWDELHITG0721-60d592e1603349298a0206d67d08582b.jpg",
     cityRestaurant: [
@@ -357,10 +357,10 @@ export const destinations = [
   },
   {
     id: "india_789",
-    cityName: "Delhi",
-    cityDesc:
+    city: "Delhi",
+    overview:
       "Experience the culinary delights, vibrant markets, and diverse dining options in Delhi, the heart of India. Immerse yourself in the rich flavors of Indian cuisine, explore bustling bazaars, and indulge in a shopping spree.",
-    cityCountry: "India",
+    country: "India",
     imgURL:
       "https://cdn.britannica.com/37/189837-050-F0AF383E/New-Delhi-India-War-Memorial-arch-Sir.jpg",
     cityRestaurant: [
@@ -407,10 +407,10 @@ export const destinations = [
   },
   {
     id: "rajasthan_gujarat_789",
-    cityName: "Rajasthan and Gujarat",
-    cityDesc:
+    city: "Rajasthan and Gujarat",
+    overview:
       "Embark on a journey through the royal and cultural heartlands of Rajasthan and Gujarat in India. Explore magnificent palaces, ancient forts, and immerse yourself in the rich traditions and vibrant colors of these diverse states.",
-    cityCountry: "India",
+    country: "India",
     imgURL:
       "https://activeindiaholidays.com/photos/t/_gallery/Festival_at_Rann_of_Kutch.jpg",
     cityRestaurant: [
@@ -458,10 +458,10 @@ export const destinations = [
   },
   {
     id: "adventurous_wildlife_789",
-    cityName: "Serengeti National Park",
-    cityDesc:
+    city: "Serengeti National Park",
+    overview:
       "Embark on an extraordinary wildlife adventure in Serengeti National Park, Tanzania. Explore the vast savannahs, witness the Great Migration, and get up close with Africa's diverse wildlife.",
-    cityCountry: "Tanzania",
+    country: "Tanzania",
     imgURL: "https://wallpapercave.com/wp/wp2537986.jpg",
     cityRestaurant: [
       {

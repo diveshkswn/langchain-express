@@ -19,7 +19,7 @@ export const generateEmbeddings = async () => {
 
     const textsToEmbed = destinations.map(
       (destination) =>
-        `City Name:${destination.cityName}\n\n City Description: ${ destination.cityDesc }\n\n city Country: ${destination.cityCountry}\n\n
+        `City Name:${destination.city}\n\n City Description: ${ destination.overview }\n\n city Country: ${destination.country}\n\n
         city image url: ${
             destination.imgURL
         }\n\n ${destination.cityRestaurant.map((restaurant)=>`city restaurant : ${restaurant.restaurantName} \n\n
