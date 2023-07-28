@@ -86,11 +86,11 @@ console.log(docs)
 
 
 
-export async function run2(search){
+export async function run2(search,count){
   console.log("search",search)
   const vectorStore = await HNSWLib.load("destinationvector", new OpenAIEmbeddings())
 
-  const searchResult = await vectorStore.similaritySearch(search, 3)
+  const searchResult = await vectorStore.similaritySearch(search, Number(count||1))
 
   const searchResultIds = searchResult.map((r) => r.metadata.id)
   const searchResultNames = searchResult.map((r) => r.metadata.name)

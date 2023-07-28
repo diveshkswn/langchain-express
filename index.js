@@ -16,8 +16,10 @@ app.post("/langchain",async(req,res)=>{
 
   try{
     console.log(req.body)
+    const message = req.body?.message;
+    const count = req.body?.count;
 
-    const result = await run2(req.body?.message);
+    const result = await run2(req.body?.message,count);
     
       res.json(result)
   }
