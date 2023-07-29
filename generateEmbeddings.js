@@ -22,14 +22,15 @@ export const generateEmbeddings = async () => {
         `City Name:${destination.city}\n\n City Description: ${ destination.overview }\n\n city Country: ${destination.country}\n\n
         city image url: ${
             destination.imgURL
-        }\n\n ${destination.cityRestaurant.map((restaurant)=>`city restaurant : ${restaurant.restaurantName} \n\n
+        }\n\n ${destination.cityRestaurant?.map((restaurant)=>`city restaurant : ${restaurant.restaurantName} \n\n
         city restaurant description : ${restaurant.restaurantDesc} \n\n
         city restaurant price : ${restaurant.costFor2} \n\n
         `)} \n\n
         ${destination.itinerary.map((itinerary)=>`city destination : ${itinerary.destination} \n\n
         city destination description : ${itinerary.destinationDesc} \n\n
         city destination image URL : ${itinerary.destinationImgUrl} \n\n
-        `)}
+        `)} \n\n
+        Travel Style  : ${destination.travelStyle.join(" ")}
         `
     )
 
